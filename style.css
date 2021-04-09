@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero-section{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://images.unsplash.com/photo-1587614382346-4ec70e388b28");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+.hero-section-text::before{
+    content: url('gears.png');
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position:absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 0px 5px 5px 0;
+    padding-top:5px ;
+    cursor: pointer;
+}
+
+.gear-icon{}
+
+.hero-section-text{
+    position: relative;
+}
+.hero-section-text h3{
+    color: rgb(168, 168, 168);
+
+}
+.hero-section-text h2{
+    color: #18BAFF;
+    margin: 20px 0px;
+}
+.hero-section-text h1{
+    color: white;
+    margin-bottom: 65px;
+}
+
+.countdown{ 
+    display: inline-block;
+}
+
+.days, .hours, .minutes, .seconds {
+    width: 100px;
+    height: 100px;
+    border: 2px solid  #18BAFF;
+    padding: 8px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.days p, .hours p, .minutes p, .seconds p{
+    
+    color: #18BAFF;
+}
+
+.newslatter p{
+    margin-top: 80px;
+    color: white;
+}
+
+.newslatter input[type=email]{
+    width: 300px;
+    height: 40px;
+   background: none;
+   border: 2px solid  #18BAFF;
+   padding: 10px;
+   margin-right: 0px;
+}
+.newslatter input[type=submit]{
+    width: 150px;
+    height: 45px;
+   background:  #18BAFF;
+   border: 9px solid  #18BAFF;
+   margin-left: -5px;
+   margin-top: 2px;
+   color: white;
+}
+
+.social-icons{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.facebook, .twitter, .linkedin, .pinterest, .dribbble,  .google-plus {
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #18BAFF;
+    color: #18BAFF;
+    padding: 11px;
+    margin-bottom: 20px;
+}
+
+
+.feature-area{
+    text-align:  center;
+    margin: 50px 0px;
+    
+}
+
+.feature-text{
+    margin-bottom: 20px;
+}
+
+.feature-area-icon{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #18BAFF;
+    position: relative;
+
+}
+
+
+.feature-area-icon i{
+    color: #18BAFF;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.feature-icon::before{
+    content: '';
+    display: block;
+    width: 235px;
+    height: 2px;
+    background: #18BAFF;
+    position:absolute;
+    left: -270px;
+    top: 50%;
+}
+
+.feature-icon::after{
+    content: '';
+    display: block;
+    width: 235px;
+    height: 2px;
+    background: #18BAFF;
+    position:absolute;
+    right: -270px;
+    top: 50%;
+}
+
+.services h1, p{color: rgb(194, 190, 190);}
+
+.services {
+    margin-top: 20px;
+}
+
+.services-icons{
+    margin-top: 20px;
+}
+
+.web i, .graphic i, .marketing i, .ecommerce i {
+    width: 120px;
+    height: 120px;
+    border: 2px solid  #18BAFF;
+    color: #18BAFF;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 30px;
+}
+
+.web h4, .graphic h4, .marketing h4, .ecommerce h4 {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+
+.about-us-area{
+    text-align: center;
+    background-color: black;
+    padding: 50px  0px;
+}
+
+.about-us-text h1{color: white;
+    margin-bottom: 30px;
+}
+
+.team-images{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-images img{
+    border: 3px solid  #18BAFF;
+    width: 300px;
+    height: 250px;
+    
+}
+
+.team-images h3{
+    margin-top: 20px;
+    color: white;
+}
+
+.team-images h4{
+  
+    color: #18BAFF;
+}
+
+
+.contact-us-area{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.contact-us-text h1{
+    margin-bottom: 30px;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+.contact-form form {
+      text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.contact-form textarea {
+    width: 760px;
+    border: 2px solid  #18BAFF;
+    padding: 10px;
+}
+
+.contact-form input[type=text], input[type=email] {
+    min-width: 360px;
+    min-height: 45px;
+   background: none;
+   border: 2px solid  #18BAFF;
+   padding: 10px;
+   margin-bottom: 30px;
+}
+.contact-form input[type=text]{
+   float: left;
+}
+.contact-form input[type=email] {
+    float: right;
+}
+
+.contact-form input[type=submit] {
+   background: #18BAFF;
+   padding: 10px;
+   border: none;
+   color: white;
+   margin-top: 20px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.footer-area{
+    background-color: #222;
+    text-align: center;
+    padding-top: 10px;
+  
+}
+
+.footer-area span{
+    color:  #18BAFF;
+}
+.footer-area p{
+    margin-top: 5px;
+}
